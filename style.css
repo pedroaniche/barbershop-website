@@ -1,0 +1,53 @@
+body {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.principal-title {
+    padding-left: 20px;
+}
+
+#banner {
+    width: 100%;
+}
+
+.principal {
+    background-color: #333333;
+    padding: 30px;
+}
+
+.center-title {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#mission {
+    font-size: 20px;
+}
+
+em strong {
+    color: orangered;
+}
+
+.benefits {
+    background-color: #1e1e1e;
+    padding: 20px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.item {
+    font-style: italic;
+}
+
+.image-benefits {
+    width: 50%;
+}
