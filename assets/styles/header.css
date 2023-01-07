@@ -1,0 +1,37 @@
+header {
+    background-color: #333333;
+    padding: 20px 0;
+}
+
+.header{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header .logo .icon {
+    width: 14%;
+}
+
+.header .navigation {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+.header .navigation .menu .page {
+    display: inline;
+    margin-left: 15px;
+}
+
+.header .navigation .menu .page .link {
+    text-transform: uppercase;
+    color: #fefefe;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.header .navigation .menu .page .link:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}

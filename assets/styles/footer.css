@@ -1,0 +1,15 @@
+footer {
+    text-align: center;
+    background-image: url(/assets/images/owner/background.jpg);
+    padding: 30px 0 30px 0;
+}
+
+.footer .logo {
+    width: 7%;
+}
+
+.footer .copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 25px;
+}
