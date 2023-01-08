@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>The Gentlemen's Den | Contact</title>
+    <link rel="icon" type="image/png" href="/assets/images/icons/full-service.jpg">
+
+    <link rel="stylesheet" href="/assets/styles/reset.css">
+    <link rel="stylesheet" href="/assets/styles/header.css">
+    <link rel="stylesheet" href="/assets/styles/contact.css">
+    <link rel="stylesheet" href="/assets/styles/footer.css">
+
+    <script src="/assets/scripts/importer.js"></script>
+</head>
+<body>
+<header></header>
+<main>
+    
+    <form action="">
+        <label for="fullname">Full Name</label>
+        <input class="standard-input" type="text" name="" id="fullname" required>
+
+        <label for="email">Email</label>
+        <input class="standard-input" type="email" name="" id="email" required placeholder="youremail@domain.com">
+
+        <label for="phone">Phone Number</label>
+        <input class="standard-input" type="tel" name="" id="phone" required placeholder="(XX) X XXXX-XXXX">
+
+        <label for="message">Message</label>
+        <textarea class="standard-input" name="" id="message" cols="70" rows="10" required></textarea>
+
+        <fieldset>
+            <legend>How do you prefer our contact?</legend>
+            <label for="radio-email"><input type="radio" name="contact" id="radio-email" value="email">Email</label>
+            <label for="radio-phone"><input type="radio" name="contact" id="radio-phone" value="phone">Call</label>    
+            <label for="radio-whatsapp"><input type="radio" name="contact" id="radio-whatsapp" value="whatsapp" checked>WhatsApp</label>           
+        </fieldset>
+
+        <fieldset class="">
+            <legend>What time do you prefer to be seen?</legend>
+            <select name="" id="">
+                <option value="">Morning</option>
+                <option value="">Afternoon</option>
+                <option value="">Evening</option>
+            </select>
+        </fieldset>
+
+        <label class="checkbox"><input type="checkbox" checked> Would you like to receive our news by email?</label>
+
+        <input class="submit" type="submit" value="Submit Form">
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>Time</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>8:00 AM - 8:00 PM</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>8:00 AM - 8:00 PM</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>8:00 AM - 8:00 PM</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <td colspan="2">- - - - - - - - - - - - - - - - - - -</td>
+        </tfoot>
+    </table>
+
+</main>
+<footer></footer>
+</body>
+</html>

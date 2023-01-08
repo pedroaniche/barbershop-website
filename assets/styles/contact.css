@@ -1,0 +1,59 @@
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.standard-input {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.submit {
+    width: 40%;
+    padding: 15px 0;
+    background-color: slategray;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: darkslategray;
+    transform: scale(1.05) rotate(720deg);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead, tfoot td {
+    background-color: #666;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 10px 15px;
+}
