@@ -12,4 +12,4 @@ To view the website, simply clone this repository and open the `index.html` file
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the The Unlicense - see the [LICENSE](LICENSE) file for details.
